@@ -19,6 +19,7 @@ public class AddMessageBlock implements CommandExecutor {
             Player jugador = (Player) commandSender;
             jugador.sendMessage(ChatColor.GREEN + "La palabra " + ChatColor.GOLD + args[0] + " " + ChatColor.GREEN + " Ha sido añadida a la lista");
             try {
+                //Aca apuntamos a la ruta  donde va a escribir informacion en el archivo (la ruta especificada es solo de prueba)
                 FileWriter out = new FileWriter("C:\\Users\\Jean Franco\\word.txt", true);
                 PrintWriter linea = new PrintWriter(out);
                 linea.println(args[0]);
