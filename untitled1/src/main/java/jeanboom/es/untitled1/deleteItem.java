@@ -1,4 +1,3 @@
-package jeanboom.es.untitled1;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
