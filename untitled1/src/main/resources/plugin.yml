@@ -1,0 +1,50 @@
+name: AdminJFx
+version: '${project.version}'
+main: jeanboom.es.untitled1.Untitled1
+api-version: 1.19
+author: jean_sama
+description: ¡Modera tu servidor ahora con todo tu kit de herramientas de administrador!
+commands:
+  banear:
+    description: Te permite banear a un jugador
+    usage: /banear <Nombre> <Razón> <Tiempo>
+  addWord:
+    description: Añade una nueva palabra a la lista de palabras censuradas
+    usage: /addWord <Palabra>
+  deleteWord:
+    description: Remueve una palabra de la lista de palabras censuradas
+    usage: /deleteWord <Frase>
+  listWord:
+    description: Muestra la lista de palabras censuradas
+    usage: /listWord
+  expulsar:
+    description: Te permite expulsar del servidor al jugador especificado
+    usage: /expulsar <nombre> <motivo>
+  clear:
+    description: Hace una limpieza del token especificado
+    usage: /clear <token>
+  mute:
+    description: Te permite silenciar a otros jugadores
+    usage: /mute <usuario> <tiempo> <razón>
+  fly:
+    description: Activa el modo vuelo
+    usage: /fly
+  vanish:
+    description: Hazte invisible para otros jugadores
+    usage: /vanish
+  warn:
+    description: Advierte a un usuario
+    usage: /warn <usuario> <motivo>
+  unban:
+    description: Te permite desbanear a un jugador cuyo acceso al servidor se encuentre bloqueado
+    usage: /unban <usuario>
+
+  tpall:
+    description: Has tpahere a todos los usuarios conectados a tu posicion actual
+    usage: /tpall
+  god:
+    description: Conviertete en ser superpoderoso e invencible
+    usage: /god
+  food:
+    description: Regenera tu barra de comida al 100%
+    usage: /food
