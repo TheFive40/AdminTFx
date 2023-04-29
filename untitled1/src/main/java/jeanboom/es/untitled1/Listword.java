@@ -15,6 +15,7 @@ public class Listword implements CommandExecutor {
     public boolean onCommand(@NotNull CommandSender commandSender, @NotNull Command command, @NotNull String s, @NotNull String[] strings) {
         try {
             if (command.getName().equalsIgnoreCase("listWord")) {
+               //Aca apuntamos a la ruta  donde va a escribir informacion en el archivo (la ruta especificada es solo de prueba)
                 FileReader reader = new FileReader("C:\\Users\\Jean Franco\\word.txt");
                 Player jugador = (Player) commandSender;
                 BufferedReader in = new BufferedReader(reader);
