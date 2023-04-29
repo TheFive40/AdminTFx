@@ -17,6 +17,7 @@ public class deleteItem implements CommandExecutor {
             Player jugador = (Player) sender;
             jugador.sendMessage(ChatColor.GREEN + "La palabra " + ChatColor.DARK_RED + args[0]  + ChatColor.GREEN + " fue eliminada");
             File arch = new File("C:\\Users\\Jean Franco\\word4.txt");
+            //Aca apuntamos a la ruta  donde va a escribir informacion en el archivo (la ruta especificada es solo de prueba)
             File arch_original = new File("C:\\Users\\Jean Franco\\word.txt");
             try {
                 FileWriter escribir = new FileWriter("C:\\Users\\Jean Franco\\word4.txt", true);
